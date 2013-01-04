@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23051E021625F6E40002487B /* libboost_unit_test_framework-mt.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 23051E011625F6E40002487B /* libboost_unit_test_framework-mt.dylib */; };
+		23051E041625F7A30002487B /* libboost_unit_test_framework-mt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23051E031625F7A30002487B /* libboost_unit_test_framework-mt.a */; };
+		2317A16C16308305004E29FF /* criticle_element_test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2317A16A16308305004E29FF /* criticle_element_test.cpp */; };
+		79DC64160DF117BC004249E8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* main.cpp */; };
+		79DC64560DF22C8A004249E8 /* voxel_data_tests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79DC64530DF22C8A004249E8 /* voxel_data_tests.cpp */; };
+		79DC64570DF22C8A004249E8 /* tests_main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79DC64540DF22C8A004249E8 /* tests_main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79DC645E0DF235BA004249E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79DC63C10DF0F77D004249E8;
+			remoteInfo = Tests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76F690486A84900D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08FB7796FE84155DC02AAC07 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		23051E011625F6E40002487B /* libboost_unit_test_framework-mt.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libboost_unit_test_framework-mt.dylib"; path = "../../../../opt/local/lib/libboost_unit_test_framework-mt.dylib"; sourceTree = "<group>"; };
+		23051E031625F7A30002487B /* libboost_unit_test_framework-mt.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libboost_unit_test_framework-mt.a"; path = "../../../../opt/local/lib/libboost_unit_test_framework-mt.a"; sourceTree = "<group>"; };
+		23051E091625F9350002487B /* voxel_data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = voxel_data.h; sourceTree = "<group>"; };
+		2317A16A16308305004E29FF /* criticle_element_test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = criticle_element_test.cpp; sourceTree = "<group>"; };
+		23F64C0A1639C2EE00D2A5CC /* GPU Gems 3 - Chapter 1. Generating Complex Procedural Terrains Using the GPU.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "GPU Gems 3 - Chapter 1. Generating Complex Procedural Terrains Using the GPU.pdf"; sourceTree = "<group>"; };
+		23F64C0C1639DF8B00D2A5CC /* 859_041.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 859_041.pdf; sourceTree = "<group>"; };
+		23F64C0D1639DF9C00D2A5CC /* sgp04.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = sgp04.pdf; sourceTree = "<group>"; };
+		23F91D09163717EB00DE2B91 /* VoxelFace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoxelFace.h; sourceTree = "<group>"; };
+		23F91D0B1637185B00DE2B91 /* Voxel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Voxel.h; sourceTree = "<group>"; };
+		23F91D0C1637220200DE2B91 /* VoxelVertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoxelVertex.h; sourceTree = "<group>"; };
+		23F91D0D1637223100DE2B91 /* VoxelEdge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoxelEdge.h; sourceTree = "<group>"; };
+		79DC63C20DF0F77D004249E8 /* Tests */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Tests; sourceTree = BUILT_PRODUCTS_DIR; };
+		79DC64530DF22C8A004249E8 /* voxel_data_tests.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = voxel_data_tests.cpp; sourceTree = "<group>"; };
+		79DC64540DF22C8A004249E8 /* tests_main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tests_main.cpp; sourceTree = "<group>"; };
+		79DC646B0DF23ACC004249E8 /* xcode_log_formatter.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = xcode_log_formatter.hpp; sourceTree = "<group>"; };
+		8DD76F6C0486A84900D96B5E /* SubVoxeling */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SubVoxeling; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79DC63C00DF0F77D004249E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23051E041625F7A30002487B /* libboost_unit_test_framework-mt.a in Frameworks */,
+				23051E021625F6E40002487B /* libboost_unit_test_framework-mt.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DD76F660486A84900D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* Boost Test example */ = {
+			isa = PBXGroup;
+			children = (
+				23051E031625F7A30002487B /* libboost_unit_test_framework-mt.a */,
+				23051E011625F6E40002487B /* libboost_unit_test_framework-mt.dylib */,
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6859E8C029090F304C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = "Boost Test example";
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				23911F0C167A64AD008A8D2F /* VoxelData */,
+				79DC64580DF22C8F004249E8 /* Tests */,
+				08FB7796FE84155DC02AAC07 /* main.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76F6C0486A84900D96B5E /* SubVoxeling */,
+				79DC63C20DF0F77D004249E8 /* Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23911F0C167A64AD008A8D2F /* VoxelData */ = {
+			isa = PBXGroup;
+			children = (
+				23051E091625F9350002487B /* voxel_data.h */,
+				23F91D09163717EB00DE2B91 /* VoxelFace.h */,
+				23F91D0B1637185B00DE2B91 /* Voxel.h */,
+				23F91D0C1637220200DE2B91 /* VoxelVertex.h */,
+				23F91D0D1637223100DE2B91 /* VoxelEdge.h */,
+			);
+			name = VoxelData;
+			sourceTree = "<group>";
+		};
+		79DC64580DF22C8F004249E8 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				79DC646B0DF23ACC004249E8 /* xcode_log_formatter.hpp */,
+				79DC64530DF22C8A004249E8 /* voxel_data_tests.cpp */,
+				79DC64540DF22C8A004249E8 /* tests_main.cpp */,
+				2317A16A16308305004E29FF /* criticle_element_test.cpp */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
+		C6859E8C029090F304C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				23F64C0D1639DF9C00D2A5CC /* sgp04.pdf */,
+				23F64C0C1639DF8B00D2A5CC /* 859_041.pdf */,
+				23F64C0A1639C2EE00D2A5CC /* GPU Gems 3 - Chapter 1. Generating Complex Procedural Terrains Using the GPU.pdf */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79DC63C10DF0F77D004249E8 /* Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79DC63C60DF0F79D004249E8 /* Build configuration list for PBXNativeTarget "Tests" */;
+			buildPhases = (
+				79DC63BF0DF0F77D004249E8 /* Sources */,
+				79DC63C00DF0F77D004249E8 /* Frameworks */,
+				79DC64680DF237B6004249E8 /* Run Tests */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tests;
+			productName = Tests;
+			productReference = 79DC63C20DF0F77D004249E8 /* Tests */;
+			productType = "com.apple.product-type.tool";
+		};
+		8DD76F620486A84900D96B5E /* MyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "MyApp" */;
+			buildPhases = (
+				8DD76F640486A84900D96B5E /* Sources */,
+				8DD76F660486A84900D96B5E /* Frameworks */,
+				8DD76F690486A84900D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79DC645F0DF235BA004249E8 /* PBXTargetDependency */,
+			);
+			name = MyApp;
+			productInstallPath = "$(HOME)/bin";
+			productName = "Boost Test example";
+			productReference = 8DD76F6C0486A84900D96B5E /* SubVoxeling */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = 1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "SubVoxeling" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* Boost Test example */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76F620486A84900D96B5E /* MyApp */,
+				79DC63C10DF0F77D004249E8 /* Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		79DC64680DF237B6004249E8 /* Run Tests */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Tests";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${BUILT_PRODUCTS_DIR}/Tests\"";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79DC63BF0DF0F77D004249E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79DC64560DF22C8A004249E8 /* voxel_data_tests.cpp in Sources */,
+				79DC64570DF22C8A004249E8 /* tests_main.cpp in Sources */,
+				2317A16C16308305004E29FF /* criticle_element_test.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DD76F640486A84900D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79DC64160DF117BC004249E8 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79DC645F0DF235BA004249E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79DC63C10DF0F77D004249E8 /* Tests */;
+			targetProxy = 79DC645E0DF235BA004249E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB923208733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_GLIBCXX_DEBUG=1",
+					"_GLIBCXX_DEBUG_PEDANTIC=1",
+				);
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = SubVoxeling;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		1DEB923308733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = SubVoxeling;
+			};
+			name = Release;
+		};
+		1DEB923608733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.7;
+			};
+			name = Debug;
+		};
+		1DEB923708733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.7;
+			};
+			name = Release;
+		};
+		79DC63C40DF0F77F004249E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = /opt/local/include/;
+				INSTALL_PATH = /usr/local/bin;
+				LIBRARY_SEARCH_PATHS = /opt/local/lib/;
+				PRODUCT_NAME = Tests;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		79DC63C50DF0F77F004249E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				HEADER_SEARCH_PATHS = /opt/local/include/;
+				INSTALL_PATH = /usr/local/bin;
+				LIBRARY_SEARCH_PATHS = /opt/local/lib/;
+				PRODUCT_NAME = Tests;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "MyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923208733DC60010E9CD /* Debug */,
+				1DEB923308733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "SubVoxeling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923608733DC60010E9CD /* Debug */,
+				1DEB923708733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79DC63C60DF0F79D004249E8 /* Build configuration list for PBXNativeTarget "Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79DC63C40DF0F77F004249E8 /* Debug */,
+				79DC63C50DF0F77F004249E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
