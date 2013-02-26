@@ -6,14 +6,16 @@
 //
 //
 
-#include "voxel_data.h"
+
 #include <boost/test/unit_test.hpp>
+#include "VolumeData.h"
 
 BOOST_AUTO_TEST_SUITE(criticle_element_tests)
 
 BOOST_AUTO_TEST_CASE( criticle_vertex )
 {
-    
+
+    volume_data_t data1( 2, 2, 2 );;
     
     
 }
