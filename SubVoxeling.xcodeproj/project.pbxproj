@@ -12,7 +12,6 @@
 		230B85B216BB0A4C0076B005 /* volume_data_test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 230B85B016BB0A4C0076B005 /* volume_data_test.cpp */; };
 		2317A16C16308305004E29FF /* criticle_element_test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2317A16A16308305004E29FF /* criticle_element_test.cpp */; };
 		79DC64160DF117BC004249E8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* main.cpp */; };
-		79DC64560DF22C8A004249E8 /* voxel_data_tests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79DC64530DF22C8A004249E8 /* voxel_data_tests.cpp */; };
 		79DC64570DF22C8A004249E8 /* tests_main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79DC64540DF22C8A004249E8 /* tests_main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -43,13 +42,13 @@
 		23051E011625F6E40002487B /* libboost_unit_test_framework-mt.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libboost_unit_test_framework-mt.dylib"; path = "../../../../opt/local/lib/libboost_unit_test_framework-mt.dylib"; sourceTree = "<group>"; };
 		23051E031625F7A30002487B /* libboost_unit_test_framework-mt.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libboost_unit_test_framework-mt.a"; path = "../../../../opt/local/lib/libboost_unit_test_framework-mt.a"; sourceTree = "<group>"; };
 		23051E091625F9350002487B /* VolumeData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VolumeData.h; sourceTree = "<group>"; };
+		23073A5116E54B8C0046F04A /* CriticleEdge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CriticleEdge.h; sourceTree = "<group>"; };
 		230B85B016BB0A4C0076B005 /* volume_data_test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = volume_data_test.cpp; sourceTree = "<group>"; };
 		2317A16A16308305004E29FF /* criticle_element_test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = criticle_element_test.cpp; sourceTree = "<group>"; };
+		238D4B7716DE4BCD0083573E /* CriticleVertexLUTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CriticleVertexLUTable.h; sourceTree = "<group>"; };
 		23F64C0A1639C2EE00D2A5CC /* GPU Gems 3 - Chapter 1. Generating Complex Procedural Terrains Using the GPU.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "GPU Gems 3 - Chapter 1. Generating Complex Procedural Terrains Using the GPU.pdf"; sourceTree = "<group>"; };
-		23F64C0C1639DF8B00D2A5CC /* 859_041.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 859_041.pdf; sourceTree = "<group>"; };
 		23F64C0D1639DF9C00D2A5CC /* sgp04.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = sgp04.pdf; sourceTree = "<group>"; };
 		79DC63C20DF0F77D004249E8 /* Tests */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Tests; sourceTree = BUILT_PRODUCTS_DIR; };
-		79DC64530DF22C8A004249E8 /* voxel_data_tests.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = voxel_data_tests.cpp; sourceTree = "<group>"; };
 		79DC64540DF22C8A004249E8 /* tests_main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tests_main.cpp; sourceTree = "<group>"; };
 		79DC646B0DF23ACC004249E8 /* xcode_log_formatter.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = xcode_log_formatter.hpp; sourceTree = "<group>"; };
 		8DD76F6C0486A84900D96B5E /* SubVoxeling */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SubVoxeling; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,6 +109,8 @@
 			isa = PBXGroup;
 			children = (
 				23051E091625F9350002487B /* VolumeData.h */,
+				238D4B7716DE4BCD0083573E /* CriticleVertexLUTable.h */,
+				23073A5116E54B8C0046F04A /* CriticleEdge.h */,
 			);
 			name = VoxelData;
 			sourceTree = "<group>";
@@ -118,7 +119,6 @@
 			isa = PBXGroup;
 			children = (
 				79DC646B0DF23ACC004249E8 /* xcode_log_formatter.hpp */,
-				79DC64530DF22C8A004249E8 /* voxel_data_tests.cpp */,
 				79DC64540DF22C8A004249E8 /* tests_main.cpp */,
 				2317A16A16308305004E29FF /* criticle_element_test.cpp */,
 				230B85B016BB0A4C0076B005 /* volume_data_test.cpp */,
@@ -130,7 +130,6 @@
 			isa = PBXGroup;
 			children = (
 				23F64C0D1639DF9C00D2A5CC /* sgp04.pdf */,
-				23F64C0C1639DF8B00D2A5CC /* 859_041.pdf */,
 				23F64C0A1639C2EE00D2A5CC /* GPU Gems 3 - Chapter 1. Generating Complex Procedural Terrains Using the GPU.pdf */,
 			);
 			name = Documentation;
@@ -181,7 +180,7 @@
 		08FB7793FE84155DC02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0450;
+				LastUpgradeCheck = 0460;
 			};
 			buildConfigurationList = 1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "SubVoxeling" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -223,7 +222,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79DC64560DF22C8A004249E8 /* voxel_data_tests.cpp in Sources */,
 				79DC64570DF22C8A004249E8 /* tests_main.cpp in Sources */,
 				2317A16C16308305004E29FF /* criticle_element_test.cpp in Sources */,
 				230B85B216BB0A4C0076B005 /* volume_data_test.cpp in Sources */,
@@ -283,7 +281,7 @@
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				SDKROOT = macosx10.7;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -293,7 +291,7 @@
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				SDKROOT = macosx10.7;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
