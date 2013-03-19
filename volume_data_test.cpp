@@ -21,7 +21,28 @@ BOOST_AUTO_TEST_CASE( VOLUME_RESOLUTION ){
     BOOST_CHECK_EQUAL( res.get_x_offset(), 1 );
     BOOST_CHECK_EQUAL( res.get_y_offset(), 1 * 2 );
     BOOST_CHECK_EQUAL( res.get_z_offset(), 1 * 2 * 3 );
+    
+    BOOST_CHECK_EQUAL( res.convert( 1, 1, 1  ), 9 );
+
+    size_t x, y ,z;
+    res.convert( 10, x, y, z );
+    BOOST_CHECK_EQUAL( x, 0 );
+    BOOST_CHECK_EQUAL( y, 2 );
+    BOOST_CHECK_EQUAL( z, 1 );
+
+    BOOST_CHECK_EQUAL( res.convert( x, y, z ), 10 );
+    
+    size_t index[ 3 ] = {0};
+    res.convert( 11, index );
+    BOOST_CHECK_EQUAL( index[ 0 ], 1 );
+    BOOST_CHECK_EQUAL( index[ 1 ], 2 );
+    BOOST_CHECK_EQUAL( index[ 2 ], 1 );
+
+    BOOST_CHECK_EQUAL( res.convert( index ), 11 );
+    
 }
+
+
 
 BOOST_AUTO_TEST_CASE( VOUME_DATA ){
     volume_data_t data1( 2, 2, 2 );;
